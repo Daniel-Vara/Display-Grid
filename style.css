@@ -1,0 +1,47 @@
+  body {
+      margin: 0;
+      font-family: sans-serif;
+    }
+
+    .container {
+      display: grid;
+      grid-template-rows: auto;
+      gap: 10px;
+      padding: 10px;
+    }
+
+    header, footer {
+      border: 2px solid black;
+      padding: 10px;
+      background-color: white;
+    }
+
+    .row {
+      display: grid;
+      gap: 10px;
+    }
+
+    .row-3 {
+      grid-template-columns: repeat(3, 1fr);
+    }
+
+    .row-1 {
+      grid-template-columns: 1fr;
+    }
+
+    .row-2 {
+      grid-template-columns: repeat(2, 1fr);
+    }
+
+    .item {
+      border: 2px solid black;
+      padding: 10px;
+      min-height: 100px;
+      background-color: white;
+    }
+
+
+    body{
+
+      background-color: grey;
+    }
